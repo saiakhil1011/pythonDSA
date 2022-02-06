@@ -5,7 +5,7 @@ def fractionToDecimal(numerator, denominator):
     if numerator % denominator == 0: # if the remainder is zero there is no decimal so return integer.
         return(int(fraction))
     if fraction * denominator == numerator:
-        return(5)
+        return(fraction)
     print("check!!")
     quotient = numerator // denominator
     remainder = numerator % denominator
